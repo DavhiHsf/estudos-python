@@ -14,14 +14,14 @@ cidade_usuario = input("Digite a sua cidade: ")
 Depois, temos um exemplo de saída (output) com o `print()`, que informa ao usuário sobre a “corrente”:
 
 ``` python
-print(f"""Olá {nome_usuario}!
+print(f"""\nOlá {nome_usuario}!
 Saiba que as informações que você escreveu (fora o seu nome) são desnecessárias e que agora você foi pego pela corrente do Hello World!""")
 ```
 
 Por fim, em tom de brincadeira, é solicitado ao usuário que digite "Hello World" 25 vezes para se livrar da corrente:
 
 ``` python
-reversao_de_corrente = input("Digite Hello World 25 vezes para se livrar de corrente: ")
+reversao_de_corrente = input("\nDigite Hello World 25 vezes para se livrar de corrente: ")
 ```
 
 ### Observação: f-string multilinha
