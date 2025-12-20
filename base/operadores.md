@@ -62,3 +62,7 @@ num_2 = int(input("Digite outro número para ser somado: "))
 print(f"Você digitou {num_1} e {num_2}")
 print(f"{num_1} + {num_2} = {num_1 + num_2}")
 ```
+
+---
+**Como executar:**
+No terminal, digite: `python operadores.py` ou `py operadores.py`

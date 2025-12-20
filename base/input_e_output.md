@@ -31,3 +31,8 @@ A f-string multilinha utiliza três aspas (`"""`) junto do prefixo `f`, permitin
 print(f"""Olá {nome}!
 Esta mensagem possui
 mais de uma linha.""")
+```
+
+---
+**Como executar:**
+No terminal, digite: `python input_e_output.py` ou `py input_e_output.py`
