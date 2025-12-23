@@ -14,6 +14,10 @@ divisao = 21 / 7
 print(f"\n21 / 7 = {divisao}")
 
 # ==========================
+divisao_inteira = 21 // 7
+print(f"\n21 // 7 = {divisao_inteira}")
+
+# ==========================
 resto_divisao = 9 % 2
 print(f"\nO que resta da divisão 9 / 2 é {resto_divisao}")
 

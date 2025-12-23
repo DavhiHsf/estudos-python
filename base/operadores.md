@@ -34,7 +34,15 @@ divisao = 21 / 7
 print(f"\n21 / 7 = {divisao}")
 ```
 
-## 5. Resto da divisão (`%`)
+## 5. Divisão Inteira (`//`)
+O operador `//` realiza a divisão inteira, retornando apenas a parte inteira do resultado, descartando as casas decimais.
+
+```python
+divisao_inteira = 21 // 7
+print(f"\n21 // 7 = {divisao_inteira}")
+```
+
+## 6. Resto da divisão (`%`)
 O operador `%` retorna o resto de uma divisão.
 
 ```python
@@ -42,7 +50,7 @@ resto_divisao = 9 % 2
 print(f"\nO que resta da divisão 9 / 2 é {resto_divisao}")
 ```
 
-## 6. Potenciação (`**`)
+## 7. Potenciação (`**`)
 O operador `**` é utilizado para realizar cálculos de potência.
 
 ```python
@@ -50,7 +58,7 @@ potenciacao = 4 ** 4
 print(f"\n4 elevado a 4 = {potenciacao}")
 ```
 
-## 7. Operações com entrada do usuário
+## 8. Operações com entrada do usuário
 Também é possível realizar operações matemáticas utilizando valores informados pelo usuário por meio do `input()`.
 
 Como o `input()` retorna uma **string**, é necessário converter os valores para `int`.
