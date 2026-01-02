@@ -19,8 +19,9 @@ altura = 1.82
 brasileiro = True
 ```
 
-## 2. Saída de Dados (f-strings)
-Existem outras formas, mas a f-string é a mais elegante e performática para interpolar variáveis. O `\n` realiza a quebra de linha.
+## 2. Saída de Dados (introdução às f-strings)
+Aqui usamos f-strings como **uma forma simples de exibir valores armazenados em variáveis**.
+O estudo completo sobre formatação e métodos de strings é abordado mais adiante.
 
 ```python
 print(f"Meu nome é {nome},\ntenho {idade} anos e possuo {altura}m de altura.")

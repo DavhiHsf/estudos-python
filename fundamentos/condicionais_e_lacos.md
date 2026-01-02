@@ -2,6 +2,9 @@
 
 De forma geral, podemos dizer que é possível alterar o comportamento do código de acordo com condições previamente determinadas, **como quando certas condições são atendidas ou repetidas enquanto uma condição for verdadeira**. Isso é possível graças ao uso das **condicionais e laços de repetição**.
 
+Em Python, **a identação é obrigatória** e faz parte da lógica do código. Diferente de outras linguagens que usam chaves (`{}`), o Python utiliza espaços ou tabulação para definir quais linhas pertencem a um mesmo bloco.
+Isso significa que tudo o que estiver identado abaixo de um `if`, `elif`, `else`, `while` ou `for` será executado dentro daquele bloco.
+
 ## 1. Condicionais (`if`, `elif`, `else`)
 As condicionais são usadas para tomar decisões dentro do código. O programa avalia expressões lógicas e executa diferentes blocos de código de acordo com o resultado:
 
